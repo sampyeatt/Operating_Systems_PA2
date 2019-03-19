@@ -1,0 +1,17 @@
+John Pyeatt
+jopy7520
+106245909
+
+This folder contains three files
+1. simple_char_driver.c
+	this is the driver file. this has a read, write, open, close, seek, init, and exit functions.
+	This file is what runs the calls
+2. Makefile
+	this contains one line "obj-m:=simple_char_driver.o"
+	this tells the kernel to make the object file.
+	I removed the hello object from the Makefile because i didnt want it there
+3. simpletest.c
+	this is the file that we run to test the driver. from here we can read, write, seek, and even exit
+	
+
+
